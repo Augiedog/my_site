@@ -1,0 +1,39 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(229, 233, 235);
+    color: rgb(34, 31, 31);
+}
+header {
+    background: blue;
+    color: white;
+    padding: 25px;
+}
+header h1 {
+    margin: 0;
+}
+main h2 {
+    text-decoration: underline;
+}
+p {
+    width: 60%;
+    color: navy;
+    text-indent: 30px;
+}
+.container {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: powderblue;
+    border-radius: 25px;
+}
+ul {
+    list-style-type: georgian;
+    width: 8px;
+}
+img {
+    padding: 15px;
+    border-radius: 50px;
+}
