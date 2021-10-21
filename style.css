@@ -37,13 +37,13 @@ img {
     padding: 15px;
     border-radius: 50px;
 }
-.lorem {
+.print {
     align-self: center;
     text-align: center;
     text-decoration: wavy;
     text-rendering: geometricPrecision;
     text-emphasis-color: blue;
-    width: 40%;
+    width: 50%;
 }
 .project {
     width: 30%;
