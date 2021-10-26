@@ -55,6 +55,13 @@ p {
     border-style: dashed;
     border-radius: 25px;
 }
+.hide {
+    display: none;
+}
+.upnxt:hover + .hide {
+    display: block;
+    color: red;
+}
 ul {
     list-style-type: decimal-leading-zero;
     width: 8px;
