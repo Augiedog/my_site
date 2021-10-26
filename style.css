@@ -3,60 +3,63 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: rgb(229, 233, 235);
-    color: rgb(34, 31, 31);
-}
-header {
-    background: blue;
-    color: white;
-    padding: 25px;
-}
-header h1 {
-    margin: 0;
-}
-main h2 {
-    text-decoration: underline;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 p {
-    width: 60%;
     color: navy;
     text-indent: 30px;
+    line-height: 2;
+}
+.head {
+    width: 85%;
+    margin: 0 auto;
+    background-color: darkcyan;
+    border-radius: 25px;
+    text-align: center;
+    vertical-align: 150px;
+    color: whitesmoke;
 }
 .container {
-    width: 50%;
+    width: 75%;
     text-align: center;
     vertical-align: 150px;
     margin: 0 auto;
     background-color: powderblue;
     border-radius: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.message {
+    width: 200%;
+}
+.project {
+    width: 1fr;
+    margin: 0 auto;    
+}
+.upnxt {
+    width: 1fr;
+    margin: 0 auto;
+    text-align: center;
+}
+.print {
+    width: 1fr;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+.contactMe {
+    background-color: lawngreen;
+    width: 60%;
+    height: 20%;
+    margin: 0 auto;
+    border-style: dashed;
+    border-radius: 25px;
 }
 ul {
-    list-style-type: georgian;
+    list-style-type: decimal-leading-zero;
     width: 8px;
 }
 img {
     padding: 15px;
     border-radius: 50px;
-}
-.print {
-    float: right;
-    text-align: right;
-    text-decoration: wavy;
-    text-rendering: geometricPrecision;
-    text-emphasis-color: blue;
-    width: 60%;
-    border-radius: 30px;
-
-}
-.project {
-    width: 30%;
-    align-self: center;
-    float: left;
-}
-.contactMe {
-    background-color: lawngreen;
-    float: inline-end;
-    width: 40%;
-    border-style: dashed;
-    border-radius: 25px;
 }
