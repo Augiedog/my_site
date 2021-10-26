@@ -19,6 +19,9 @@ p {
     text-align: center;
     vertical-align: 150px;
     color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 .container {
     width: 75%;
