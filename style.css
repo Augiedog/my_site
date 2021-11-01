@@ -67,7 +67,8 @@ p {
 }
 ul {
     list-style-type: decimal-leading-zero;
-    width: 8px;
+    width: 20%;
+    text-align: left;
 }
 img {
     padding: 15px;
