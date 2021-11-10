@@ -1,0 +1,55 @@
+h2 {
+    text-align: start;
+}
+h3 {
+    text-transform: capitalize;
+}
+
+.palette {
+    float: left;
+    width: 10vmin;
+}
+
+.painting {
+    float: left;
+    width: 100vmin;
+    height: 70vmin;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 2px;
+}
+
+.pixel {
+    float: left;
+    height: 5%;
+    width: 5%;
+}
+
+.color-choice {
+    font-size: 65px;
+}
+#white {
+    color: white;
+}
+#blue {
+    color: blue;
+}
+#red {
+    color: red;
+}
+#yellow {
+    color: yellow;
+}
+#green {
+    color: green;
+}
+#orange {
+    color: orange;
+}
+#indigo {
+    color: indigo;
+}
+#purple {
+    color: purple;
+}
