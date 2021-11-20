@@ -11,6 +11,11 @@ p {
     text-indent: 30px;
     line-height: 2;
 }
+button {
+    font-size: 1.5em;
+    margin-right: 10px;
+    border-radius: 10px;
+}
 .head {
     width: 85%;
     margin: 0 auto;

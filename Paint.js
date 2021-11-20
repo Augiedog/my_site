@@ -1,5 +1,5 @@
 let brush = 'black'
-// You can change the brush variable your console to change color.
+// You can change the brush variable in your console to change color.
 const painting = document.querySelector('.painting')
 document.getElementById('brushColor').textContent = `Current Color is ${brush}`
 
@@ -19,4 +19,8 @@ for(let i = 0; i < palette.length; i++){
 document.getElementById('goBack').addEventListener('click', function() {
   window.history.back()
   window.alert("Taking you Back!!")
+})
+
+document.getElementById('clear').addEventListener('click', function() {
+  location.reload();
 })

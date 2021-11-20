@@ -25,6 +25,8 @@ h3 {
     float: left;
     width: 5%;
     height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .painting {
@@ -69,4 +71,10 @@ h3 {
 }
 #purple {
     color: purple;
+}
+#black {
+    color: black;
+}
+#pink {
+    color: pink;
 }
