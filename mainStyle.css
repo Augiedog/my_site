@@ -16,6 +16,12 @@ button {
     margin-right: 10px;
     border-radius: 10px;
 }
+#paintApp {
+    background:linear-gradient(to bottom left, green, blue);
+}
+#paintApp:hover {
+    background: linear-gradient(to bottom left, blue, purple);
+}
 .head {
     width: 85%;
     margin: 0 auto;

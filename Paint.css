@@ -48,6 +48,19 @@ h3 {
 .color-choice {
     font-size: 65px;
 }
+#goBack {
+    background:linear-gradient(to bottom left, green, blue);
+}
+#goBack:hover {
+    background: linear-gradient(to bottom left, blue, purple);
+}
+#clear {
+    background: linear-gradient(to bottom left, orange, white);
+}
+#clear:hover {
+    background: linear-gradient(to bottom left, red, orange);
+}
+
 #white {
     color: white;
 }
