@@ -16,6 +16,12 @@ button {
     margin-right: 10px;
     border-radius: 10px;
 }
+#diceApp {
+    background:linear-gradient(to bottom left, green, blue);
+}
+#diceApp:hover {
+    background:linear-gradient(to bottom left, blue, purple);
+}
 #paintApp {
     background:linear-gradient(to bottom left, green, blue);
 }

@@ -1,0 +1,50 @@
+html, 
+/* Controls and Message Styles */
+/* .controls {
+    padding: 10px;
+    border: 1px solid black;
+} */
+
+.message-container {
+    color: rgb(17, 0, 255);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#goBack {
+    background:linear-gradient(to bottom left, green, blue);
+}
+#goBack:hover {
+    background: linear-gradient(to bottom left, blue, purple);
+}
+
+#flip,
+#roll {
+    background: linear-gradient(to bottom left, lightblue, white);
+}
+
+#flip:hover,
+#roll:hover {
+    background: linear-gradient(to bottom left, darkblue, lightblue);
+}
+
+#clear {
+    background: linear-gradient(to bottom left, orange, white);
+}
+
+#clear:hover {
+    background: linear-gradient(to bottom left, red, orange);
+}
+
+/* Scoreboard Styles */
+table, 
+th, 
+td {
+    border: 1px solid darkorange;
+    margin: 0 auto;
+}
+
+td {
+    padding: 5px;
+    font-weight: bold;
+}
