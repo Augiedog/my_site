@@ -24,6 +24,14 @@ let questions = [
     correctAnswer: "b"
   },
   {
+    text: `Who is Augie\'s girlfriend?
+    A. Jon
+    B. Bob
+    C. Rebecca
+    D. Stacy`,
+  correctAnswer: "c"
+  }
+  {
     text: `The New York Times slogan is, 'All the News That's Fit to...';
       A. Digest
       B. Look
