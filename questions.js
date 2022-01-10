@@ -30,7 +30,7 @@ let questions = [
     C. Rebecca
     D. Stacy`,
   correctAnswer: "c"
-  }
+  },
   {
     text: `The New York Times slogan is, 'All the News That's Fit to...';
       A. Digest
