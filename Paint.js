@@ -12,6 +12,7 @@ for(let i = 0; i < palette.length; i++){
   palette[i].addEventListener('click', function () {
     brush = palette[i].id
      document.getElementById('brushColor').textContent = `Current Color is ${brush}`
+     document.getElementById('brushColor').style.color = (brush)
     console.log(brush)
   })
 }

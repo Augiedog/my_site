@@ -10,14 +10,6 @@ html,
     font-size: 1.5em;
     font-weight: bold;
 }
-
-#goBack {
-    background:linear-gradient(to bottom left, green, blue);
-}
-#goBack:hover {
-    background: linear-gradient(to bottom left, blue, purple);
-}
-
 #flip,
 #roll {
     background: linear-gradient(to bottom left, lightblue, white);

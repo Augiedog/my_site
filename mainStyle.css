@@ -28,6 +28,12 @@ button {
 #paintApp:hover {
     background: linear-gradient(to bottom left, blue, purple);
 }
+#goBack {
+    background:linear-gradient(to bottom left, green, blue);
+}
+#goBack:hover {
+    background: linear-gradient(to bottom left, blue, purple);
+}
 .head {
     width: 85%;
     margin: 0 auto;
