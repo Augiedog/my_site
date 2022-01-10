@@ -68,6 +68,13 @@ button {
     margin: 0 auto;
     text-align: center;
 }
+.hide {
+    display: none;
+}
+.upnxt:hover + .hide {
+    display: block;
+    color: red;
+}
 .print {
     width: 1fr;
     margin: 0 auto;
@@ -76,18 +83,12 @@ button {
 .contactMe {
     background-color: lawngreen;
     width: 60%;
-    height: 20%;
+    height: 100%;
     margin: 0 auto;
     border-style: dashed;
     border-radius: 25px;
 }
-.hide {
-    display: none;
-}
-.upnxt:hover + .hide {
-    display: block;
-    color: red;
-}
+
 ul {
     list-style-type: decimal-leading-zero;
     width: 50%;
