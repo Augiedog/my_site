@@ -48,6 +48,6 @@ localStorage.setItem('pushUps', savedpushUps)
 
 // Exit button
 document.getElementById('goBack').addEventListener('click', function() {
-    window.history.back()
+    window.location='./index.html'
     window.alert("Taking you Back!!")
   })

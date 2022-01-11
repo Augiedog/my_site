@@ -18,18 +18,21 @@ button {
 }
 #diceApp {
     background:linear-gradient(to bottom left, green, blue);
+    color: whitesmoke;
 }
 #diceApp:hover {
     background:linear-gradient(to bottom left, blue, purple);
 }
 #paintApp {
     background:linear-gradient(to bottom left, green, blue);
+    color: whitesmoke;
 }
 #paintApp:hover {
     background: linear-gradient(to bottom left, blue, purple);
 }
 #goBack {
     background:linear-gradient(to bottom left, green, blue);
+    color: whitesmoke;
 }
 #goBack:hover {
     background: linear-gradient(to bottom left, blue, purple);

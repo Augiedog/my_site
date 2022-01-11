@@ -40,6 +40,6 @@ for(let i = 0; i < games.length; i++){
 window.alert('The high score is: '+highestScoringGame.score)
 
 document.getElementById('goBack').addEventListener('click', function() {
-    window.history.back()
+    window.location='./index.html'
     window.alert("Taking you Back!!")
   })
