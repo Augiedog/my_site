@@ -9,7 +9,7 @@ document.getElementById('diceApp').addEventListener('click', function() {
   window.alert("Let\'s Throw Some Dice!!")
 })
 // Go Back Button
-document.getElementById('goBack').addEventListener('click', function() {
-  window.location='./index.html'
-  window.alert("Taking you Back!!")
-})
+// document.getElementById('goBack').addEventListener('click', function() {
+//   window.location='./index.html'
+//   window.alert("Taking you Back!!")
+// })
