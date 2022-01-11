@@ -30,6 +30,13 @@ button {
 #paintApp:hover {
     background: linear-gradient(to bottom left, blue, purple);
 }
+#chooseAdven {
+    background: linear-gradient(to bottom left, green, blue);
+    color: whitesmoke;
+}
+#chooseAdven:hover {
+    background: linear-gradient(to bottom left, blue, purple);
+}
 #goBack {
     background:linear-gradient(to bottom left, green, blue);
     color: whitesmoke;
