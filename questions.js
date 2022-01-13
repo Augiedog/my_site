@@ -1,11 +1,27 @@
 let questions = [
   {
+    text: `What does "www" stand for in a website browser?
+      A. World Wide Web
+      B. World War Winner
+      C. Wild Wild West
+      D. Weird Willy Warthog`,
+    correctAnswer: "a"
+  },
+  {
     text: `What is the first book of the Old Testament?
       A. Leviticus
       B. Numbers
       C. Genesis
       D. Exodus`,
     correctAnswer: "c"
+  },
+  {
+    text: `What geometric shape is generally used for stop signs?
+      A. Square
+      B. Octagon
+      C. Pentagon
+      D. Dodecahedron`,
+    correctAnswer: "b"
   },
   {
     text: `How would one say goodbye in Spanish?
@@ -16,8 +32,16 @@ let questions = [
     correctAnswer: "d"
   },
   {
+    text: `How many colors are in the rainbow?
+      A. 3
+      B. 7
+      C. 9
+      D. 12`,
+    correctAnswer: "b"
+  },
+  {
     text: `What is the French word for 'hat'?
-      A.  Casque
+      A. Casque
       B. Chapeau
       C. Bonnet
       D. Écharpe`,
@@ -25,11 +49,27 @@ let questions = [
   },
   {
     text: `Who is Augie\'s girlfriend?
-    A. Jon
-    B. Bob
-    C. Rebecca
-    D. Stacy`,
-  correctAnswer: "c"
+      A. Jon
+      B. Bob
+      C. Rebecca
+      D. Stacy`,
+    correctAnswer: "c"
+  },
+  {
+    text: `How many hearts does an octopus have?
+      A. 3
+      B. 1
+      C. 2
+      D. 5`,
+    correctAnswer: "a"
+  },
+  {
+    text: `In what type of matter are atoms most tightly packed?
+      A. Solids
+      B. Liquid
+      C. Plasma
+      D. Gas`,
+    correctAnswer: "a"
   },
   {
     text: `The New York Times slogan is, 'All the News That's Fit to...';
@@ -54,6 +94,14 @@ let questions = [
       C. Denver
       D. Madison`,
     correctAnswer: "c"
+  },
+  {
+    text: `What is the Largest Ocean on earth?
+      A. Indian Ocean
+      B. Atlantic Ocean
+      C. Arctic Ocean
+      D. Pacific Ocean`,
+    correctAnswer: "d"
   },
   {
     text: `2 x 3 ?
@@ -94,6 +142,14 @@ let questions = [
       C. Flax
       D. Straw`,
     correctAnswer: "d"
+  },
+  {
+    text: `Which of Newton\'s laws states that "for every action, there is an equal and opposite reaction"?
+      A. Newton\'s law of universal gravitation
+      B. The fifth law of motion
+      C. The third law of motion
+      D. the second law of motion`,
+    correctAnswer: "c"
   },
   {
     text: `What kind of aircraft was developed by Igor Sikorsky in the United States in 1942?

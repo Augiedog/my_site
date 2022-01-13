@@ -5,7 +5,7 @@ for(let i = 0; i < questions.length; i++){
     let question = questions[i]
     let userAnswer = window.prompt(question.text)
     if(userAnswer === question.correctAnswer){
-        userScore = userScore + 10
+        userScore = userScore + 5
     }
 }
 
@@ -38,7 +38,11 @@ for(let i = 0; i < games.length; i++){
     }
 }
 window.alert('The high score is: '+highestScoringGame.score)
-
+// Play again button
+document.getElementById('playAgain').addEventListener('click', function() {
+    location.reload()
+})
+// Go Back Button
 document.getElementById('goBack').addEventListener('click', function() {
     window.location='./index.html'
     window.alert("Taking you Back!!")

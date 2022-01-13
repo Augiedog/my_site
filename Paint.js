@@ -23,5 +23,5 @@ document.getElementById('goBack').addEventListener('click', function() {
 })
 
 document.getElementById('clear').addEventListener('click', function() {
-  location.reload();
+  location.reload()
 })
