@@ -104,7 +104,7 @@ let questions = [
     correctAnswer: "d"
   },
   {
-    text: `2 x 3 ?
+    text: `2 x 3 = ?
       A. 5
       B. 6
       C. 9
