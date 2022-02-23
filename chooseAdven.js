@@ -1,5 +1,7 @@
 document.getElementById('chooseAdven').addEventListener('click', function() {
-    let firstAnswer = window.prompt('Do you head Left or Right?')
+    let firstAnswer = window.prompt(`Welcome to Choose your Adventure! You are walking alone in a dark 
+    ancient forest, where deep into a path you come across a fork in the road.
+    Do you head Left or Right?`)
     if(firstAnswer === 'left'){
         let secondAnswer = window.prompt(`You come across a stray cat. 
             It scampers off down a small hole, just large enough for you to crawl through. 
