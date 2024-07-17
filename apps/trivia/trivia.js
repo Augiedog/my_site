@@ -44,6 +44,6 @@ document.getElementById('playAgain').addEventListener('click', function() {
 })
 // Go Back Button
 document.getElementById('goBack').addEventListener('click', function() {
-    window.location='./index.html'
+    window.location='../../index.html'
     window.alert("Taking you Back!!")
   })

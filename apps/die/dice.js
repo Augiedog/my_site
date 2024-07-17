@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.getElementById('goBack').addEventListener('click', function() {
         // Takes you back to the home page
-        window.location='./index.html'
+        window.location='../../index.html'
         window.alert("Taking you Back!!")
     })
 

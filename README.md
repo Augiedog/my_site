@@ -1,3 +1,3 @@
-# my_site
-<!-- this is a place for me to play and practice codeing  -->
-<p align="center">you can <a href="https://augiedog.github.io/my_site/"><b>Play</b></a> the Game here</p>
+# AugieDog's Website
+<!-- this is a place for me to present my play and practice of codeing  -->
+<p align="center">You Can <a href="https://augiedog.github.io/my_site/"><b>Visit</b></a>My Site Here</p>
