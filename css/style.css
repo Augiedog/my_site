@@ -147,16 +147,16 @@ img:hover {
 }
 
 /* service section */
-#service {
+#projects {
   padding-top: 100px;
   padding-bottom: 80px;
 }
-#service h2 {
+#projects h2 {
   border-left: 2px solid #f2af00;
   display: inline-block;
   padding: 20px;
 }
-#service .fa {
+#projects .fa {
   border-top: 3px solid #f2af00;
   border-bottom: 3px solid #dc5034;
   border-radius: 50%;
