@@ -59,17 +59,31 @@ jQuery(document).ready(function($){
 
 });
 
+// Whac A Mole
+document.getElementById('whackamole').addEventListener('click', function() {
+	window.location='https://gorgeous-genie-657fdc.netlify.app/'
+	window.alert("You are leaving this site")
+})
 // Paint App button
 document.getElementById('paintApp').addEventListener('click', function() {
 	window.location='./apps/paint/Paint.html'
 	window.alert("To the Painting App!!")
   })
-
 // Dice App button
   document.getElementById('diceApp').addEventListener('click', function() {
 	window.location='./apps/die/dice.html'
 	window.alert("Let\'s Throw Some Dice!!")
   })
+// Triva Game
+document.getElementById('trivia').addEventListener('click', function() {
+	window.location='./apps/trivia/trivia.html'
+	window.alert("to the Rep Tracker")
+})
+// Rep tracker
+document.getElementById('reptracker').addEventListener('click', function() {
+	window.location='./apps/rep-tracker/repTracker.html'
+	window.alert("to the Rep Tracker")
+})
 
 // HIDE MOBILE MENU AFTER CLIKING ON A LINK
    $('.navbar-collapse a').click(function(){
