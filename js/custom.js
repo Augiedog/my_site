@@ -1,109 +1,109 @@
 
 // NIVO LIGHTBOX
 $('.iso-box-section a').nivoLightbox({
-        effect: 'fadeScale',
-    });
+	effect: 'fadeScale',
+});
 
 // ISOTOPE FILTER
-jQuery(document).ready(function($){
+jQuery(document).ready(function ($) {
 
-	if ( $('.iso-box-wrapper').length > 0 ) { 
+	if ($('.iso-box-wrapper').length > 0) {
 
-	    var $container 	= $('.iso-box-wrapper'), 
-	    	$imgs 		= $('.iso-box img');
+		var $container = $('.iso-box-wrapper'),
+			$imgs = $('.iso-box img');
 
 
 
-	    $container.imagesLoaded(function () {
+		$container.imagesLoaded(function () {
 
-	    	$container.isotope({
+			$container.isotope({
 				layoutMode: 'fitRows',
 				itemSelector: '.iso-box'
-	    	});
+			});
 
-	    	$imgs.load(function(){
-	    		$container.isotope('reLayout');
-	    	})
+			$imgs.load(function () {
+				$container.isotope('reLayout');
+			})
 
-	    });
+		});
 
-	    //filter items on button click
+		//filter items on button click
 
-	    $('.filter-wrapper li a').click(function(){
+		$('.filter-wrapper li a').click(function () {
 
-	        var $this = $(this), filterValue = $this.attr('data-filter');
+			var $this = $(this), filterValue = $this.attr('data-filter');
 
-			$container.isotope({ 
+			$container.isotope({
 				filter: filterValue,
-				animationOptions: { 
-				    duration: 750, 
-				    easing: 'linear', 
-				    queue: false, 
-				}              	 
-			});	            
+				animationOptions: {
+					duration: 750,
+					easing: 'linear',
+					queue: false,
+				}
+			});
 
 			// don't proceed if already selected 
 
-			if ( $this.hasClass('selected') ) { 
-				return false; 
+			if ($this.hasClass('selected')) {
+				return false;
 			}
 
 			var filter_wrapper = $this.closest('.filter-wrapper');
 			filter_wrapper.find('.selected').removeClass('selected');
 			$this.addClass('selected');
 
-	      return false;
-	    }); 
+			return false;
+		});
 
 	}
 
 });
 
 // Whac A Mole
-document.getElementById('whackamole').addEventListener('click', function() {
-	window.location='https://gorgeous-genie-657fdc.netlify.app/'
+document.getElementById('whackamole').addEventListener('click', function () {
+	window.location = 'https://gorgeous-genie-657fdc.netlify.app/'
 	window.alert("You are leaving this site")
 })
 // Paint App button
-document.getElementById('paintApp').addEventListener('click', function() {
-	window.location='./apps/paint/Paint.html'
+document.getElementById('paintApp').addEventListener('click', function () {
+	window.location = './apps/paint/Paint.html'
 	window.alert("To the Painting App!!")
-  })
+})
 // Dice App button
-  document.getElementById('diceApp').addEventListener('click', function() {
-	window.location='./apps/die/dice.html'
+document.getElementById('diceApp').addEventListener('click', function () {
+	window.location = './apps/die/dice.html'
 	window.alert("Let\'s Throw Some Dice!!")
-  })
+})
 // Triva Game
-document.getElementById('trivia').addEventListener('click', function() {
-	window.location='./apps/trivia/trivia.html'
+document.getElementById('trivia').addEventListener('click', function () {
+	window.location = './apps/trivia/trivia.html'
 	window.alert("to the Rep Tracker")
 })
 // Rep tracker
-document.getElementById('reptracker').addEventListener('click', function() {
-	window.location='./apps/rep-tracker/repTracker.html'
+document.getElementById('reptracker').addEventListener('click', function () {
+	window.location = './apps/rep-tracker/repTracker.html'
 	window.alert("to the Rep Tracker")
 })
 
 // HIDE MOBILE MENU AFTER CLIKING ON A LINK
-   $('.navbar-collapse a').click(function(){
-        $(".navbar-collapse").collapse('hide');
-    });
+$('.navbar-collapse a').click(function () {
+	$(".navbar-collapse").collapse('hide');
+});
 
 // SCROLLTO THE TOP
-$(document).ready(function() {
+$(document).ready(function () {
 	// Show or hide the sticky footer button
-		$(window).scroll(function() {
-			if ($(this).scrollTop() > 200) {
-				$('.go-top').fadeIn(200);
-					} else {
-						$('.go-top').fadeOut(200);
-					}
-				});		
-				// Animate the scroll to top
-				$('.go-top').click(function(event) {
-					event.preventDefault();
-				
-					$('html, body').animate({scrollTop: 0}, 300);
-				})
-			});
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 200) {
+			$('.go-top').fadeIn(200);
+		} else {
+			$('.go-top').fadeOut(200);
+		}
+	});
+	// Animate the scroll to top
+	$('.go-top').click(function (event) {
+		event.preventDefault();
+
+		$('html, body').animate({ scrollTop: 0 }, 300);
+	})
+});
