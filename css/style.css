@@ -109,6 +109,7 @@ img:hover {
 /* home section */
 #home {
   background: url('../images/home-bg.jpg')no-repeat;
+  box-shadow: 0 0 10px 5px;
   background-size: cover;
   background-position: center;
   min-height: 600px;
