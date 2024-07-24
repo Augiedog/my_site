@@ -67,7 +67,6 @@ document.getElementById('whackamole').addEventListener('click', function () {
 // Paint App button
 document.getElementById('paintApp').addEventListener('click', function () {
 	window.location = './apps/paint/Paint.html'
-	window.alert("To the Painting App!!")
 })
 // Dice App button
 document.getElementById('diceApp').addEventListener('click', function () {

@@ -19,7 +19,7 @@ for(let i = 0; i < palette.length; i++){
 
 document.getElementById('goBack').addEventListener('click', function() {
   window.location='../../index.html'
-  window.alert("Taking you Back!!")
+  window.alert("Your Painting will not be saved")
 })
 
 document.getElementById('clear').addEventListener('click', function() {
