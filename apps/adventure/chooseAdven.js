@@ -98,10 +98,10 @@ document.getElementById('chooseAdven').addEventListener('click', function () {
                     if (fifthAnswer === 'explore') {
                         window.alert(`You navigate the traps and discover a hidden treasure, becoming wealthy`)
                     } else if (fifthAnswer === 'turn back') {
-                        window.prompt(`You turn back, Falling into a trap! You find yourself hanging from an edge over a cliff with a very long fall. A fariy appers before you and askes "give" yourself to me or "fall"`)
-                        if (fifthAnswer === 'give') {
+                        let sixthAnswer = window.prompt(`You turn back, Falling into a trap! You find yourself hanging from an edge over a cliff with a very long fall. A fariy appers before you and askes "give" yourself to me or "fall"`)
+                        if (sixthAnswer === 'give') {
                             window.alert(`As you slip, and begin to fall the fairy rushs you! next time time look about your confused at first, but soon relize you have become a Tree! the fairys have binded your soul and now your branchs cover the forest conopy, and you are where the fariys call home!`)
-                        } else if (fifthAnswer === 'fall') {
+                        } else if (sixthAnswer === 'fall') {
                             window.alert(`You begin to fall, thinking about your life and all the things you've run from. You manage to oriented yourself before the impact! As the flash of light hits your eyes you wake up in your bed and think what's for breakfest.`)
                         }
                     }
