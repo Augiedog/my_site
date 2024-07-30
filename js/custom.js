@@ -76,7 +76,7 @@ document.getElementById('diceApp').addEventListener('click', function () {
 // Triva Game
 document.getElementById('trivia').addEventListener('click', function () {
 	window.location = './apps/trivia/trivia.html'
-	window.alert("to the Rep Tracker")
+	window.alert("Trivia time")
 })
 // Rep tracker
 document.getElementById('reptracker').addEventListener('click', function () {
