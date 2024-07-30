@@ -106,7 +106,7 @@ document.getElementById('chooseAdven').addEventListener('click', function () {
                         }
                     }
                 } else if (fourthAnswer === 'discard') {
-                    window.alert(`You return home, wondering what had gotton into you. Why you had ever though you could go on an adventure!`)
+                    window.alert(`You return home, wondering what had gotton into you. Why you had ever thought you could go on an adventure!`)
                 }
             }
         } else if (secondAnswer === 'away') {
