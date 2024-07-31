@@ -61,8 +61,8 @@ jQuery(document).ready(function ($) {
 
 // Whac A Mole
 document.getElementById('whackamole').addEventListener('click', function () {
-	window.location = 'https://gorgeous-genie-657fdc.netlify.app/'
-	window.alert("You are leaving this site")
+	window.open( "https://gorgeous-genie-657fdc.netlify.app/", "", "width=500, height=700" )
+	window.alert("Welcome back from whack a mole")
 })
 // Paint App button
 document.getElementById('paintApp').addEventListener('click', function () {
