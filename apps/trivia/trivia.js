@@ -11,7 +11,7 @@ for(let i = 0; i < questions.length; i++){
 
 window.alert('Your score is: '+userScore)
 
-let serializedGames = localStorage.getItem('trivia')
+let serializedGames = localStorage.getItem('AugieDogTriviaGame')
 
 let games;
 if(serializedGames === null){

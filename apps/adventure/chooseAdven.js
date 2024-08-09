@@ -1,7 +1,7 @@
 document.getElementById('chooseAdven').addEventListener('click', function () {
-    let firstAnswer = window.prompt(`Welcome to Choose your Adventure! You are walking alone in a dark 
-    ancient forest, where deep into a path you come across a fork in the road.
-    Do you head "Left" or "Right" ? type your choice from the quotes`)
+    let firstAnswer = window.prompt(`Welcome to Choose your Adventure! 
+        You are walking alone in a dark ancient forest, where deep into a path you come across a fork in the road.
+        Do you head "Left" or "Right" ? Make your choice by typing the word in quotes`)
     if (firstAnswer === 'left') {
         let secondAnswer = window.prompt(`You come across a stray cat. 
             It scampers off down a small hole, just large enough for you to crawl through. 
@@ -9,8 +9,8 @@ document.getElementById('chooseAdven').addEventListener('click', function () {
         if (secondAnswer === 'follow') {
             let thirdAnswer = window.prompt(`You follow the cat to a colony of cats, 
                 nestled in a fort of warm blankets and subsisting off of inexplicably warm soup. 
-                They are content with you staying"stay", but you wonder if you should alert the world 
-                to this magical safe haven."spread the word"`)
+                They are content with you staying "stay", but you wonder if you should alert the world 
+                to this magical safe haven."spread" the word`)
             if (thirdAnswer === 'stay') {
                 let fourthAnswer = window.prompt(`You live happily amongst the cats for the rest 
                     of your days. One day, you find a hidden tunnel in the colony. Do you "explore" it or "ignore" it?`);
@@ -29,7 +29,7 @@ document.getElementById('chooseAdven').addEventListener('click', function () {
                 } else if (fourthAnswer === 'ignore') {
                     window.alert(`You continue living peacefully with the cats.`);
                 }
-            } else if (thirdAnswer === 'spread the word') {
+            } else if (thirdAnswer === 'spread') {
                 let fourthAnswer = window.prompt(`After leaving the cat colony, you are never able
                     to find it again; without proof, no one believes your story, which passes into
                     legend nonetheless. Years later, you hear rumors of a similar colony. Do you "investigate" or "ignore" the rumors?`);
@@ -70,12 +70,9 @@ document.getElementById('chooseAdven').addEventListener('click', function () {
 
 
     } else if (firstAnswer === 'right') {
-        let secondAnswer = window.prompt(`You come across a snoring dragon. 
-            On the other side of him, you see a shiny chest of treasure"past" the dragon. Another path would 
-            lead you "away" from the dragon altogether. Which path do you take?`)
+        let secondAnswer = window.prompt(`You come across a snoring dragon. On the other side of him, you see a shiny chest of treasure "past" the dragon. Another path would lead you "away" from the dragon altogether. Which path do you take?`)
         if (secondAnswer === 'past') {
-            let thirdAnswer = window.prompt(`The dragon wakes up and sits upright. You only have a
-             moment to respond, to "stay" or "run":`)
+            let thirdAnswer = window.prompt(`The dragon wakes up and sits upright. You only have a moment to respond, to "stay" or "run":`)
             if (thirdAnswer === 'stay') {
                 let fourthAnswer = window.prompt(`You and the dragon have an uplifting conversation 
                     about local politics and become lifelong friends. The Dragon's name is Hank and he lets you ride him. 
@@ -83,26 +80,25 @@ document.getElementById('chooseAdven').addEventListener('click', function () {
                 if (fourthAnswer === 'help') {
                     let fifthAnswer = window.prompt(`You embark on a thrilling adventure with Hank and successfully retrieve the artifact. Do you "keep" it or "give" it back to Hank?`);
                     if (fifthAnswer === 'keep') {
-                        window.alert(`Hank is disappointed but understands. You gain immense power from the artifact.`);
+                        window.alert(`Hank is disappointed and dosen't really understand. You two get into a fight. You have gained immense power from the artifact and can easily hold your own against Hank. After laying Hank out unconscious, he never really comes around anymore. You've become lonly as no one understands you. The artifact has givin you a power that nothing can handle.`);
                     } else if (fifthAnswer === 'give') {
                         window.alert(`Hank is grateful and you both continue to have many more adventures together.`);
                     }
                 } else if (fourthAnswer === 'decline') {
-                    window.alert(`Hank is disappointed but respects your decision. You continue to be friends and have smaller adventures together and you get get free rides anymore`);
+                    window.alert(`Hank is disappointed but respects your decision. You continue to be friends and have smaller adventures together, but you don't get free rides anymore.`);
                 }
             } else if (thirdAnswer = 'run') {
-                let fourthAnswer = window.prompt(`Quickly, you run back to the cave's entrance. 
-                    Sheepish, you return home. However, you find a map dropped by the dragon. Do you "follow" it or "discard" it?`);
+                let fourthAnswer = window.prompt(`Quickly, you run back to the cave's entrance. Sheepish, you turn towards home. However, you look down and see a map dropped by the dragon. Do you "follow" it or "discard" it?`);
                 if (fourthAnswer === 'follow') {
-                    let fifthAnswer = window.prompt(`The map leads to an ancient ruin filled with traps and treasures. Do you "explore" or "turn back"?`);
+                    let fifthAnswer = window.prompt(`The map leads to an ancient ruin filled with traps and treasures. Do you "explore" or turn "back"?`);
                     if (fifthAnswer === 'explore') {
-                        window.alert(`You navigate the traps and discover a hidden treasure, becoming wealthy`)
-                    } else if (fifthAnswer === 'turn back') {
-                        let sixthAnswer = window.prompt(`You turn back, Falling into a trap! You find yourself hanging from an edge over a cliff with a very long fall. A fariy appers before you and askes "give" yourself to me or "fall"`)
+                        window.alert(`You navigate the traps and discover a hidden treasure, becoming wealthy.`)
+                    } else if (fifthAnswer === 'back') {
+                        let sixthAnswer = window.prompt(`You turn back, falling into a trap! You find yourself hanging from an edge over a cliff with a very long fall. A fariy appears before you and askes "give" yourself to me or "fall"`)
                         if (sixthAnswer === 'give') {
-                            window.alert(`As you slip, and begin to fall the fairy rushs you! next time time look about your confused at first, but soon relize you have become a Tree! the fairys have binded your soul and now your branchs cover the forest conopy, and you are where the fariys call home!`)
+                            window.alert(`As you slip, and begin to fall the fairy quickly flies to you and everything fades to white! When you awaking you are confused at first, but soon relize you have become a Tree!! The fairies have binded your soul and now your branches cover the forest caonopy. You are where the fairies call home!`)
                         } else if (sixthAnswer === 'fall') {
-                            window.alert(`You begin to fall, thinking about your life and all the things you've run from. You manage to oriented yourself before the impact! As the flash of light hits your eyes you wake up in your bed and think what's for breakfest.`)
+                            window.alert(`You begin to fall, thinking about your life and all the things you've run from. You manage to orient yourself before the impact! As the flash of light hits your eyes, you wake up in your bed and think "What's for breakfast?"`)
                         }
                     }
                 } else if (fourthAnswer === 'discard') {
@@ -110,18 +106,11 @@ document.getElementById('chooseAdven').addEventListener('click', function () {
                 }
             }
         } else if (secondAnswer === 'away') {
-            let thirdAnswer = window.prompt(`After walking a while longer, you come across a shiny 
-                blue flower. It is so beautiful that you decide you must either "draw it" or "pick it". 
-                Which do you do?`)
-            if (thirdAnswer === 'draw it') {
-                let thirdAnswer = window.prompt(`You draw the flower, capturing only a fraction of 
-                    its beauty with your quill. You bring the drawing home, somewhat disappointed, 
-                    but over time, discover joy in sharing it with your friends and family, recounting 
-                    the story of your days as a sorcerer with the aid of the sketch.`)
-            } else if (thirdAnswer === 'pick it') {
-                let thirdAnswer = window.prompt(`You pick the flower and bring it home, and all 
-                    marvel at its brilliance. However, over time it fades and eventually crumbles 
-                    to dust.`)
+            let thirdAnswer = window.prompt(`After walking a while longer, you come across a shiny blue flower. It is so beautiful that you decide you must either "draw" it or "pick" it. Which do you do?`)
+            if (thirdAnswer === 'draw') {
+                let thirdAnswer = window.alert(`You draw the flower, capturing only a fraction of its beauty with your quill. You bring the drawing home, somewhat disappointed, but over time, discover joy in sharing it with your friends and family, recounting the story of your days as a sorcerer with the aid of the sketch.`)
+            } else if (thirdAnswer === 'pick') {
+                let thirdAnswer = window.alert(`You pick the flower and bring it home, and all marvel at its brilliance. However, over time it fades and eventually crumbles to dust.`)
             }
         }
     }
