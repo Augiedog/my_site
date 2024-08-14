@@ -68,6 +68,10 @@ document.getElementById('whackamole').addEventListener('click', function () {
 document.getElementById('paintApp').addEventListener('click', function () {
 	window.location = './apps/paint/Paint.html'
 })
+// Poke Dex
+document.getElementById('pokeDex').addEventListener('click', function () {
+	window.open( "https://brilliant-kashata-df6660.netlify.app/", "", "width=1202, height=700" )
+})
 // Dice App button
 document.getElementById('diceApp').addEventListener('click', function () {
 	window.location = './apps/die/dice.html'
