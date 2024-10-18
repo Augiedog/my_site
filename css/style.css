@@ -110,8 +110,10 @@ img:hover {
 #home {
   background: url('../images/67617205.png')no-repeat;
   box-shadow: 0 0 10px 5px;
-  background-size: cover;
-  background-position: center;
+  /* background-size: cover; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-position: center; */
   min-height: 600px;
   padding-top: 220px;
   padding-bottom: 100px;
