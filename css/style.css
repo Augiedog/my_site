@@ -113,8 +113,8 @@ img:hover {
   /* background-size: cover; */
   background-size: contain;
   background-repeat: no-repeat;
-  border-radius: 50%;
-  color: #BLUE;
+  border-radius: 50px;
+  color: #red;
   /* background-position: center; */
   min-height: 600px;
   padding-top: 220px;
