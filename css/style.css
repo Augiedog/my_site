@@ -113,8 +113,8 @@ img:hover {
   /* background-size: cover; */
   background-size: contain;
   background-repeat: no-repeat;
-  border-radius: 50px;
-  color: red;
+  /* border-radius: 50px; */
+  /* color: red; */
   /* background-position: center; */
   min-height: 600px;
   padding-top: 220px;
@@ -127,6 +127,9 @@ img:hover {
 }
 #home h2 {
   line-height: 10px;
+}
+#headShot {
+
 }
 #home .btn {
   background: rgba(255, 255, 255, 0.6);
