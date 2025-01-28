@@ -70,7 +70,11 @@ document.getElementById('paintApp').addEventListener('click', function () {
 })
 // Poke Dex
 document.getElementById('pokeDex').addEventListener('click', function () {
-	window.open( "https://brilliant-kashata-df6660.netlify.app/", "", "width=1202, height=700" )
+	window.open( "https://brilliant-kashata-df6660.netlify.app/", "", "width=1400, height=700" )
+})
+// Yatzee
+document.getElementById('yatzee').addEventListener('click', function () {
+	window.open( "https://augiedog.github.io/Yahtzee/", "", "width=1200, height=700")
 })
 // Dice App button
 document.getElementById('diceApp').addEventListener('click', function () {
