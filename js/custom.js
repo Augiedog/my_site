@@ -87,10 +87,10 @@ document.getElementById('trivia').addEventListener('click', function () {
 	window.alert("Trivia time")
 })
 // Rep tracker
-document.getElementById('reptracker').addEventListener('click', function () {
-	window.location = './apps/rep-tracker/repTracker.html'
-	window.alert("to the Rep Tracker")
-})
+// document.getElementById('reptracker').addEventListener('click', function () {
+// 	window.location = './apps/rep-tracker/repTracker.html'
+// 	window.alert("to the Rep Tracker")
+// })
 
 // HIDE MOBILE MENU AFTER CLIKING ON A LINK
 $('.navbar-collapse a').click(function () {
