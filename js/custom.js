@@ -86,6 +86,10 @@ document.getElementById('trivia').addEventListener('click', function () {
 	window.location = './apps/trivia/trivia.html'
 	window.alert("Trivia time")
 })
+// DigiClock
+document.getElementById('digiClock').addEventListener('click', function () {
+	window.open('https://augiedog.github.io/digiClock/', '' , 'width=712,height=270' )
+})
 // Rep tracker
 // document.getElementById('reptracker').addEventListener('click', function () {
 // 	window.location = './apps/rep-tracker/repTracker.html'
